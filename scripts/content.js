@@ -14,6 +14,6 @@ if(article) {
     const time = article.querySelector(".flow-space-200.stack time")?.parentNode;
     const heading = article.querySelector("h1");
     (time??heading).insertAdjacentElement("afterend", badge);
-
+    badge.style.display = 'none';
 }
 

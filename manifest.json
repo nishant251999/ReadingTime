@@ -4,7 +4,6 @@
     "version": "0.0.1",
     "description": "Shows the reading time for Chrome documentation pages",
     "action": {
-      // "default_popup": "popup.html",
       "default_icon": "icons/clock.png"
     },
     "icons": {
